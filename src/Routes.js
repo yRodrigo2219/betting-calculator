@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 
 export default function Routes(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename='betting-calculator'>
             <Sidebar />
             <Switch>
                 <Route path='/odd'>
