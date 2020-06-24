@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/betting-calculator/static/css/main.7145b233.chunk.css",
-    "main.js": "/betting-calculator/static/js/main.37ba89a2.chunk.js",
-    "main.js.map": "/betting-calculator/static/js/main.37ba89a2.chunk.js.map",
+    "main.js": "/betting-calculator/static/js/main.a70a3f40.chunk.js",
+    "main.js.map": "/betting-calculator/static/js/main.a70a3f40.chunk.js.map",
     "runtime-main.js": "/betting-calculator/static/js/runtime-main.b511c157.js",
     "runtime-main.js.map": "/betting-calculator/static/js/runtime-main.b511c157.js.map",
     "static/js/2.22b58ace.chunk.js": "/betting-calculator/static/js/2.22b58ace.chunk.js",
     "static/js/2.22b58ace.chunk.js.map": "/betting-calculator/static/js/2.22b58ace.chunk.js.map",
     "index.html": "/betting-calculator/index.html",
-    "precache-manifest.326919d5f653fad13d38097663194700.js": "/betting-calculator/precache-manifest.326919d5f653fad13d38097663194700.js",
+    "precache-manifest.eee87e515907cab69dda879b40b7ce7a.js": "/betting-calculator/precache-manifest.eee87e515907cab69dda879b40b7ce7a.js",
     "service-worker.js": "/betting-calculator/service-worker.js",
     "static/css/main.7145b233.chunk.css.map": "/betting-calculator/static/css/main.7145b233.chunk.css.map",
     "static/js/2.22b58ace.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.22b58ace.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.b511c157.js",
     "static/js/2.22b58ace.chunk.js",
     "static/css/main.7145b233.chunk.css",
-    "static/js/main.37ba89a2.chunk.js"
+    "static/js/main.a70a3f40.chunk.js"
   ]
 }
