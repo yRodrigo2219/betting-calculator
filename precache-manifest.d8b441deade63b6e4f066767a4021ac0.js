@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d697a5abb602c9ef8b584e2b45ddfcb",
+    "revision": "ee11ea2c60cf54d9b0c9a16b1b2eb5cf",
     "url": "/betting-calculator/index.html"
   },
   {
-    "revision": "a6a09420894fff9574ee",
-    "url": "/betting-calculator/static/css/main.174d0d64.chunk.css"
+    "revision": "923aac24111fdb805b64",
+    "url": "/betting-calculator/static/css/main.9e619c85.chunk.css"
   },
   {
     "revision": "2e409e9841e3976e7a5f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/betting-calculator/static/js/2.e7791141.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6a09420894fff9574ee",
+    "revision": "923aac24111fdb805b64",
     "url": "/betting-calculator/static/js/main.983418b2.chunk.js"
   },
   {
