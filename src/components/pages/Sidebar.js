@@ -6,6 +6,8 @@ import { ReactComponent as Odd } from '../../assets/odd.svg';
 import { ReactComponent as Whistle } from '../../assets/whistle.svg';
 import { ReactComponent as Home } from '../../assets/home.svg';
 import { ReactComponent as Percentage } from '../../assets/percentage.svg';
+import { ReactComponent as Pie } from '../../assets/pie.svg';
+import { ReactComponent as Chart } from '../../assets/chart.svg';
 
 import './Sidebar.css';
 
@@ -17,6 +19,8 @@ export default function Sidebar() {
                 <MenuButton to='/hedge' svg={Wallet} name='Hedge'/>
                 <MenuButton to='/arbitrage' svg={Whistle} name='Arbitrage'/>
                 <MenuButton to='/hold' svg={Percentage} name='Hold'/>
+                <MenuButton to='/kelly' svg={Pie} name='Kelly'/>
+                <MenuButton to='/evalue' svg={Chart} name='E.Value'/>
             </div>
             <MenuButton to='/' svg={Home} name='Home'/>
         </div>

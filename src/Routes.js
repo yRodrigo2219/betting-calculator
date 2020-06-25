@@ -7,6 +7,8 @@ import Hedge from './components/pages/Hedge';
 import Arbitrage from './components/pages/Arbitrage';
 import Hold from './components/pages/Hold';
 import Home from './components/pages/Home'; 
+import Kelly from './components/pages/Kelly';
+import EValue from './components/pages/EValue';
 
 export default function Routes(){
     return(
@@ -24,6 +26,12 @@ export default function Routes(){
                 </Route>
                 <Route path='/hold'>
                     <Hold/>
+                </Route>
+                <Route path='/kelly'>
+                    <Kelly/>
+                </Route>
+                <Route path='/evalue'>
+                    <EValue/>
                 </Route>
                 <Route path='/'>
                     <Home/>
