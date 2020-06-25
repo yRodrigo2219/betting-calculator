@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51869e1824e47f9ca9382d7fb019e03b",
+    "revision": "f23d402f29a10c3ee4fa1bd3f52f33a2",
     "url": "/betting-calculator/index.html"
   },
   {
-    "revision": "e8f32157b24d48dedfb1",
-    "url": "/betting-calculator/static/css/main.7145b233.chunk.css"
+    "revision": "f1010f3aee84b7fa5339",
+    "url": "/betting-calculator/static/css/main.81765820.chunk.css"
   },
   {
     "revision": "88dde748b1602acafac3",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/betting-calculator/static/js/2.22b58ace.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8f32157b24d48dedfb1",
-    "url": "/betting-calculator/static/js/main.a70a3f40.chunk.js"
+    "revision": "f1010f3aee84b7fa5339",
+    "url": "/betting-calculator/static/js/main.0b8068da.chunk.js"
   },
   {
     "revision": "a226849d32c50d40f958",
     "url": "/betting-calculator/static/js/runtime-main.b511c157.js"
+  },
+  {
+    "revision": "407cc23da87f2fd52c0780d9c671e030",
+    "url": "/betting-calculator/static/media/chart.407cc23d.svg"
   },
   {
     "revision": "789230e2015de47a01aa0990df1fa2c9",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9eda9bdd884ab73f962327dca433f482",
     "url": "/betting-calculator/static/media/percentage.9eda9bdd.svg"
+  },
+  {
+    "revision": "6deeed6ef8e039b2d698ba931eaad7d8",
+    "url": "/betting-calculator/static/media/pie.6deeed6e.svg"
   },
   {
     "revision": "1f49401a7823af540cd1eb507a2ea60d",
