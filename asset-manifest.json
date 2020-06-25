@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/betting-calculator/static/css/main.81765820.chunk.css",
-    "main.js": "/betting-calculator/static/js/main.0b8068da.chunk.js",
-    "main.js.map": "/betting-calculator/static/js/main.0b8068da.chunk.js.map",
+    "main.css": "/betting-calculator/static/css/main.174d0d64.chunk.css",
+    "main.js": "/betting-calculator/static/js/main.983418b2.chunk.js",
+    "main.js.map": "/betting-calculator/static/js/main.983418b2.chunk.js.map",
     "runtime-main.js": "/betting-calculator/static/js/runtime-main.b511c157.js",
     "runtime-main.js.map": "/betting-calculator/static/js/runtime-main.b511c157.js.map",
-    "static/js/2.22b58ace.chunk.js": "/betting-calculator/static/js/2.22b58ace.chunk.js",
-    "static/js/2.22b58ace.chunk.js.map": "/betting-calculator/static/js/2.22b58ace.chunk.js.map",
+    "static/js/2.e7791141.chunk.js": "/betting-calculator/static/js/2.e7791141.chunk.js",
+    "static/js/2.e7791141.chunk.js.map": "/betting-calculator/static/js/2.e7791141.chunk.js.map",
     "index.html": "/betting-calculator/index.html",
-    "precache-manifest.2da420f558b4c5c7e93dfbb1a886e23c.js": "/betting-calculator/precache-manifest.2da420f558b4c5c7e93dfbb1a886e23c.js",
+    "precache-manifest.aec57e4c567f68479c2875aaaacd938e.js": "/betting-calculator/precache-manifest.aec57e4c567f68479c2875aaaacd938e.js",
     "service-worker.js": "/betting-calculator/service-worker.js",
-    "static/css/main.81765820.chunk.css.map": "/betting-calculator/static/css/main.81765820.chunk.css.map",
-    "static/js/2.22b58ace.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.22b58ace.chunk.js.LICENSE.txt",
+    "static/css/main.174d0d64.chunk.css.map": "/betting-calculator/static/css/main.174d0d64.chunk.css.map",
+    "static/js/2.e7791141.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.e7791141.chunk.js.LICENSE.txt",
     "static/media/chart.407cc23d.svg": "/betting-calculator/static/media/chart.407cc23d.svg",
     "static/media/home.789230e2.svg": "/betting-calculator/static/media/home.789230e2.svg",
     "static/media/odd.70d6ca53.svg": "/betting-calculator/static/media/odd.70d6ca53.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b511c157.js",
-    "static/js/2.22b58ace.chunk.js",
-    "static/css/main.81765820.chunk.css",
-    "static/js/main.0b8068da.chunk.js"
+    "static/js/2.e7791141.chunk.js",
+    "static/css/main.174d0d64.chunk.css",
+    "static/js/main.983418b2.chunk.js"
   ]
 }
