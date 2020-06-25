@@ -47,11 +47,11 @@
 /*Modern Mobile*/
 @media only screen and (min-width: 520px) {
     .sidebar {
-        position: fixed;
+        position: absolute;
         width: 100vw;
         justify-content: space-between;
-        min-height: 5.5em;
-        transition: min-height 0.5s;
+        height: 5.5em;
+        transition: height 0.5s;
         flex-direction: row;
     }
 
@@ -84,7 +84,7 @@
     }
 
     .sidebar:hover {
-        min-height: 15em;
+        height: 15em;
     }
 
     .sidebar:hover span {
@@ -102,9 +102,9 @@
 /*Desktop view*/
 @media only screen and (min-width: 1024px) and (min-height: 500px) {
     .sidebar {
+        position: fixed;
         width: 5.5em;
-        min-width: 5.5em;
-        transition: min-width 0.5s;
+        transition: width 0.5s;
         height: 100vh;
         flex-direction: column;
     }
@@ -129,7 +129,7 @@
     }
 
     .sidebar:hover {
-        min-width: 15em;
+        width: 15em;
         height: 100vh;
     }
 
