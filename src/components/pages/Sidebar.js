@@ -15,14 +15,16 @@ export default function Sidebar() {
     return (
         <div className='sidebar'>
             <div>
-                <MenuButton to='/odd' svg={Odd} name='Odds'/>
-                <MenuButton to='/hedge' svg={Wallet} name='Hedge'/>
-                <MenuButton to='/arbitrage' svg={Whistle} name='Arbitrage'/>
-                <MenuButton to='/hold' svg={Percentage} name='Hold'/>
-                <MenuButton to='/kelly' svg={Pie} name='Kelly'/>
-                <MenuButton to='/evalue' svg={Chart} name='E.Value'/>
+                <MenuButton to='/odd' svg={Odd} name='Odds' />
+                <MenuButton to='/hedge' svg={Wallet} name='Hedge' />
+                <MenuButton to='/arbitrage' svg={Whistle} name='Arbitrage' />
+                <MenuButton to='/hold' svg={Percentage} name='Hold' />
+                <MenuButton to='/kelly' svg={Pie} name='Kelly' />
+                <MenuButton to='/evalue' svg={Chart} name='E.Value' />
             </div>
-            <MenuButton to='/' svg={Home} name='Home'/>
+            <div>
+                <MenuButton exact to='/' svg={Home} name='Home' />
+            </div>
         </div>
     );
 }

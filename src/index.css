@@ -13,17 +13,12 @@
 #root {
     min-height: 200vh;
     display: flex;
+    flex-direction: column;
 }
 
 .content {
     background-color: rgb(99, 0, 138);
-    width: 100%;
-}
-
-@media only screen and (min-height: 500px){
-    .content {
-        margin-left: 5.5em;
-    }
+    flex: 1;
 }
 
 .hidden {
@@ -61,4 +56,19 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+/*Modern Mobile*/
+@media only screen and (min-width: 520px) {
+    .content {
+        margin-top: 5.5em;
+    }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 1024px) and (min-height: 500px) {
+    .content {
+        margin-top: 0;
+        margin-left: 5.5em;
+    }
 }
