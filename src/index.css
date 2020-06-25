@@ -11,14 +11,25 @@
 }
 
 #root {
-    min-height: 200vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .content {
+    padding: 20px;
     background-color: rgb(99, 0, 138);
     flex: 1;
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+.content>h1 {
+    line-height: 1.5em;
+}
+
+.content>strong {
+    margin-bottom: 1em;
 }
 
 .hidden {
