@@ -1,0 +1,170 @@
+.content>div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 1024px;
+}
+
+.content>h1 {
+    line-height: 1.5em;
+}
+
+.content>strong {
+    margin-bottom: 1em;
+}
+
+.content button {
+    height: 2em;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background-color: rgb(54, 9, 73);
+    border: 2px solid rgb(54, 9, 73);
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.content button:focus {
+    outline: rgb(231, 73, 99) auto 2px;
+}
+
+.content button:active {
+    background-color: rgb(231, 73, 99);
+    transform: translateY(5px);
+}
+
+.interface label {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.multi>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label {
+    margin-top: 20px;
+}
+
+.outputs {
+    margin-top: 60px;
+}
+
+.outputs label {
+    margin-top: 20px;
+}
+
+.symbol {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.symbol>span {
+    font-weight: normal;
+    position: absolute;
+    color: black;
+    font-size: 1.5em;
+    color: rgb(125, 50, 155);
+    pointer-events: none;
+}
+
+.currency>span {
+    left: 0.55em;
+}
+
+.odd>span {
+    right: 0.55em;
+}
+
+.currency>input {
+    padding-left: 1.6em;
+}
+
+.odd>input {
+    padding-left: 0.5em;
+    padding-right: 1.6em;
+}
+
+.interface input {
+    height: 2em;
+    font-size: 1.5em;
+    flex: 1;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(54, 9, 73);
+    color: rgb(125, 50, 155);
+    background-color: whitesmoke;
+}
+
+.interface input:focus {
+    outline: rgb(231, 73, 99) auto 2px;
+}
+
+/*Modern Mobile*/
+@media only screen and (min-width: 520px) {
+    .outputs {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .outputs.multi {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .outputs.multi>div {
+        flex-direction: row;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .outputs.multi>div>label {
+        max-width: 250px;
+    }
+
+    .inputs {
+        align-items: flex-start;
+    }
+
+    .outputs label {
+        margin-right: 10px;
+    }
+
+    .interface label {
+        width: 100%;
+        max-width: 470px;
+    }
+
+    .interface .odd {
+        max-width: 250px;
+    }
+
+    .content button {
+        flex: 1;
+        margin-left: 10px;
+        max-width: 200px;
+        min-width: 100px;
+    }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 1024px) and (min-height: 500px) {
+    .outputs {
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .content>div {
+        padding: 50px;
+    }
+}

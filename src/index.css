@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    user-select: none;
     font-family: 'Muli', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
@@ -17,19 +16,12 @@
 }
 
 .content {
-    padding: 20px;
     background-color: rgb(99, 0, 138);
     flex: 1;
     color: whitesmoke;
     min-height: 100vh;
-}
-
-.content>h1 {
-    line-height: 1.5em;
-}
-
-.content>strong {
-    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .hidden {
@@ -67,6 +59,23 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+.explanation {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 1024px;
+}
+
+.explanation>h1 {
+    font-size: 1.6em;
+    margin: 15px 0px;
+}
+
+.explanation>p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-bottom: 7px;
 }
 
 /*Modern Mobile*/

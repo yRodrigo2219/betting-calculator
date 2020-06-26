@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './EValue.css';
+import LabelInput from '../common/LabelInput';
 
 export default function EValue() {
     const calcEV = () => {
@@ -17,20 +17,7 @@ export default function EValue() {
 
     }
 
-    const fixedTwo = ({ target }) => {
-        if (target.value !== '' && target.max !== '') {
-            if (Number.parseFloat(target.max) < Number.parseFloat(target.value))
-                target.value = target.max
-
-        }
-        if (target.value !== '') {
-            target.value = Number.parseFloat(target.value).toFixed(2);
-        }
-
-        calcEV();
-    }
-
-    const restEV = () => {
+    const resetEV = () => {
         document.getElementsByClassName('wager')[0].value =
             document.getElementsByClassName('odds')[0].value =
             document.getElementsByClassName('prob')[0].value =
@@ -38,19 +25,41 @@ export default function EValue() {
     }
 
     return (
-        <div className='content ev'>
-            <h1>Expected Value</h1>
-            <strong>Using the expected value calculator allows you to see what you can expect to recieve from a bet.</strong>
+        <div className='content'>
+            <div className='ev'>
+                <h1>Expected Value</h1>
+                <strong>Using the expected value calculator allows you to see what you can expect to recieve from a bet based on the probability of that outcome occurring.</strong>
 
-
-            <div className='inputs interface'>
-                <label>Wager<label className='currency symbol'><span>$</span><input onChange={calcEV} className='wager' onBlur={fixedTwo} type='number' min={0} step={0.01} /></label></label>
-                <label>Odds<label className='odd symbol'><span>X</span><input onChange={calcEV} className='odds' onBlur={fixedTwo} type='number' min={1} step={0.01} max={999} /></label></label>
-                <label>Win Probability<label className='odd symbol'><span>%</span><input onChange={calcEV} className='prob' onBlur={fixedTwo} type='number' min={0} step={0.01} max={100} /></label></label>
+                <div className='inputs interface'>
+                    <LabelInput name='Wager' type='currency' symbol='$' onChange={calcEV} className='wager' min={0} />
+                    <LabelInput name='Odds' type='odd' symbol='X' onChange={calcEV} className='odds' min={1} />
+                    <LabelInput name='Win Probability' type='odd' symbol='%' onChange={calcEV} className='prob' min={0} max={100} />
+                </div>
+                <div className='outputs interface'>
+                    <LabelInput name='Expected' type='currency' symbol='$' className='evalue' readOnly />
+                    <button onClick={resetEV}>Reset</button>
+                </div>
             </div>
-            <div className='outputs interface'>
-                <label>Expected<label className='currency symbol'><span>$</span><input className='evalue' readOnly type='number' min={0} step={0.01} /></label></label>
-                <button onClick={restEV}>Reset</button>
+            <div className='explanation'>
+                <h1>Expected Value Definition</h1>
+                <p>
+                    Expected value is the amount of money you can expect to win or lose if you placed the same bet on
+                    the same event at the same probability an infinite number of times. Of course,
+                    events are only played once in sports betting, so they may lose, but if you’re making bets
+                    with positive expected value (+EV), you should win in the long run.
+                </p>
+                <h1>How do you calculate expected value?</h1>
+                <p>
+                    Take the (Probability of Win x Money Won per Bet) - (Probability of Loss x Money Lost per Bet).
+                </p>
+                <p>
+                    Let’s say you were flipping a coin against a friend for $10 and you choose heads.
+                    Since the probability of each side is 50%, your expected value is 0.
+                </p>
+                <p>
+                    But then your friend decides to offer you 2.5 odds on heads, so you’ll win $15.
+                    Now you have a +EV bet, because your probability of winning is better than the odds you’re being offered.
+                </p>
             </div>
         </div>
     );
