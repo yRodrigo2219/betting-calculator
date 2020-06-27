@@ -1,0 +1,21 @@
+{
+    "menu": {
+        "odd": "Multiplicador",
+        "hedge": "Cobertura",
+        "arbitrage": "Arbitragem",
+        "hold": "Comissão",
+        "kelly": "Kelly",
+        "evalue": "V.Esperado",
+        "home": "Início"
+    },
+    "forms": {
+        "wager": "Aposta",
+        "win-prob": "Chance de Vitoria",
+        "odds": "Multiplicador",
+        "expected": "Esperado",
+        "balance": "Saldo",
+        "fkelly": "Fração de Kelly",
+        "balance-perc": "Percentual do Saldo",
+        "reset": "Reiniciar"
+    }
+}

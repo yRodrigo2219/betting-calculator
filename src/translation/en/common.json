@@ -1,0 +1,21 @@
+{
+    "menu": {
+        "odd": "Odd",
+        "hedge": "Hedge",
+        "arbitrage": "Arbitrage",
+        "hold": "Hold",
+        "kelly": "Kelly",
+        "evalue": "E.Value",
+        "home": "Home"
+    },
+    "forms": {
+        "wager": "Wager",
+        "win-prob": "Win Probability",
+        "odds": "Odds",
+        "expected": "Expected",
+        "balance": "Balance",
+        "fkelly": "Fractional Kelly",
+        "balance-perc": "Balance Percentage",
+        "reset": "Reset"
+    }
+}

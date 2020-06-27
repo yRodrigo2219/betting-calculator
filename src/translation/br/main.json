@@ -1,0 +1,41 @@
+{
+    "kelly": {
+        "title": "Critério Kelly",
+        "description": "A calculadora do Critério Kelly lhe informa o valor ótimo, visando o crescimento a longo prazo, que deve ser apostado (mas é da responsabilidade do usuário conseguir as entradas necessárias).",
+        "explanation": {
+            "fst-title": "O Critério Kelly",
+            "fst-topic": "O Critério Kelly é uma fórmula para tamanho de aposta que conduz, quase certamente, para maior riqueza quando comparada com qualquer outra estratégia a longo prazo(conforme o número de aposta se aproxima do infinito). O valor de aposta Kelly é encontrado maximizando o valor esperado do logaritmo da riqueza, que por sua vez é equivalente a maximizar a taxa de crescimento geométrico. O Critério Kelly é para apostas uma fração predeterminada de ativos, e pode ser contraintuitivo.",
+            "snd-title": "Como é calculado?",
+            "snd-topic": {
+                "fst": {
+                    "span": "Para apostas simples com apenas duas possibilidades, uma envolvendo perder toda o valor apostado, e a outra envolvendo ganhar o valor apostado multiplicado pelo multiplicador, o valor de aposta Kelly é: ",
+                    "strong": "Saldo% = ( Vitoria% ) - ( Derrota% / Multiplicador Líquido )"
+                },
+                "snd": {
+                    "fst-span": "Aqui é importante notar que o ",
+                    "strong": "Multiplicador Líquido",
+                    "snd-span": " faz referência ao resultado líquido do multiplicador(ex: um multiplicador de 2.40x tem um multiplicador líquido de 1.40)."
+                }
+            },
+            "trd-title": "Então, qual é o uso da Fração de Kelly?",
+            "trd-topic": "A Fração de Kelly é um multiplicador que pode ser usado para conseguir uma abordagem mais segura, pois o Critério Kelly pode parecer muito arriscado (matematicamente é feito para nunca levar a falência, mas isso só é possível tendo um valor de aposta infinitamente divisível e uma quantidade ilimitada de apostas)."
+        }
+    },
+    "evalue": {
+        "title": "Valor Esperado",
+        "description": "A calculadora de valor esperado lhe permite visualizar o quanto pode se esperar ganhar em uma aposta, baseado na probabilidade do evento escolhido de acontecer.",
+        "explanation": {
+            "fst-title": "Definição de Valor Esperado",
+            "fst-topic": "Valor Esperado é a quantidade de dinheiro que se espera ganhar ou perder se uma mesma aposta em um mesmo evento ocorrer uma quantidade infinita de vezes. Claro, eventos só são jogados uma vez nos esportes, então eles podem perder, mas se você estiver fazendo apostas com o valor esperado positivo(+EV), você deve ganhar no longo prazo.",
+            "snd-title": "Como o Valor Esperado é calculado?",
+            "snd-topic": {
+                "fst": "Valor Esperado = ( Vitoria% x Dinheiro ganho por aposta ) - ( Derrota% x Dinheiro perdido por aposta).",
+                "snd": "Vamos dizer que você estivesse apostando em uma moeda com um amigo, no valor de $10 e você escolheu cara. Já que a probabilidade de cada lado ganhar é de 50%, seu valor esperado é 0.",
+                "trd": "Mas seu amigo decide lhe oferecer um multiplicador de 2.5x, então você ganhará $15. Agora, você tem uma aposta +EV, pois sua chance de vitória é melhor do que o multiplicador que lhe foi oferecido."
+            }
+        }
+    },
+    "home": {
+        "lang": "Selecione sua linguagem:"
+    }
+}

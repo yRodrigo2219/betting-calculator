@@ -1,0 +1,41 @@
+{
+    "kelly": {
+        "title": "Kelly Criterion",
+        "description": "The Kelly criterion calculator can tell you the optimal, long term growth, bet sizing (but it is the user's responsibility to find the right inputs).",
+        "explanation": {
+            "fst-title": "The Kelly Criterion",
+            "fst-topic": "The Kelly criterion is a formula for bet sizing that leads almost surely to higher wealth compared to any other strategy in the long run(as the number of bets goes to infinity). The Kelly bet size is found by maximizing the expected value of the logarithm of wealth, which is equivalent to maximizing the expected geometric growth rate.The Kelly Criterion is to bet a predetermined fraction of assets, and it can seem counterintuitive.",
+            "snd-title": "How is it calculated?",
+            "snd-topic": {
+                "fst": {
+                    "span": "For simple bets with two outcomes, one involving losing the entire amount bet, and the other involving winning the bet amount multiplied by the payoff odds, the Kelly bet is: ",
+                    "strong": "Balance% = ( Win% ) - ( Loss% / Net Odds )"
+                },
+                "snd": {
+                    "fst-span": "Here is important to note that ",
+                    "strong": "Net Odds",
+                    "snd-span": " means the net result of the odd (e.g. a 2.40x odd has an 1.4 net odd)."
+                }
+            },
+            "trd-title": "So, what is the Fractional Kelly usage?",
+            "trd-topic": "The Fractional Kelly is a multiplier that can be used to get a safer approach, because the Kelly criterion result can seem too much of a risk(mathematically it is designed to never get you bankrupt, but it count with an infinitely divisible wager and unlimited amounts of bets)."
+        }
+    },
+    "evalue": {
+        "title": "Expected Value",
+        "description": "Using the expected value calculator allows you to see what you can expect to receive from a bet based on the probability of that outcome occurring.",
+        "explanation": {
+            "fst-title": "Expected Value Definition",
+            "fst-topic": "Expected value is the amount of money you can expect to win or lose if you placed the same bet on the same event at the same probability an infinite number of times.Of course, events are only played once in sports betting, so they may lose, but if you’ re making bets with positive expected value(+EV), you should win in the long run.",
+            "snd-title": "How do you calculate expected value?",
+            "snd-topic": {
+                "fst": "Expeceted Value = ( Win% x Money Won per Bet) - ( Loss% x Money Lost per Bet).",
+                "snd": "Let’s say you were flipping a coin against a friend for $10 and you choose heads. Since the probability of each side is 50 % , your expected value is 0.",
+                "trd": "But then your friend decides to offer you 2.5 odds on heads, so you’ll win $15. Now you have a + EV bet, because your probability of winning is better than the odds you’ re being offered."
+            }
+        }
+    },
+    "home": {
+        "lang": "Select your language:"
+    }
+}
