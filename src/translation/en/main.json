@@ -1,4 +1,18 @@
 {
+    "hold": {
+        "title": "Bookmaker Hold",
+        "description": "The hold percentage is the margin a bookmaker takes on both sides of the game.",
+        "explanation": {
+            "fst-title": "What is the Hold?",
+            "fst-topic": "Hold in sports betting refers to the percentage of money that sportsbooks keep for every dollar wagered.",
+            "snd-title": "How is it calculated?",
+            "snd-topic": {
+                "fst": "An event in the real world with two outcomes, like a coin flip, might have 50/50 odds. Those probabilities add up to 100%.",
+                "snd": "But in sports betting, it’s different. Once you convert odds to probabilities and add them together, you’ll get a number greater than 100%. That's because a sportsbook charges you a tax on every bet to take your action.",
+                "trd": "Hold is really just the probability of all the outcomes of an event added together, minus 100."
+            }
+        }
+    },
     "kelly": {
         "title": "Kelly Criterion",
         "description": "The Kelly criterion calculator can tell you the optimal, long term growth, bet sizing (but it is the user's responsibility to find the right inputs).",

@@ -5,7 +5,7 @@ export default function ResetButton(props) {
         const inputs = document.getElementsByTagName('input');
         for (let i = 0; i < inputs.length; i++)
             if (inputs[i].type === 'number')
-                inputs[i].value = inputs[i].defaultValue;
+                props.reset(inputs[i], '');
     }
 
     return (

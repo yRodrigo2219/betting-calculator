@@ -16,6 +16,11 @@
         "balance": "Saldo",
         "fkelly": "Fração de Kelly",
         "balance-perc": "Percentual do Saldo",
-        "reset": "Reiniciar"
+        "reset": "Reiniciar",
+        "fst-odd": "Multiplicador Um",
+        "snd-odd": "Multiplicador Dois",
+        "fst-prob": "Probabilidade Um",
+        "snd-prob": "Probabilidade Dois",
+        "hold-perc": "Comissão"
     }
 }

@@ -16,6 +16,11 @@
         "balance": "Balance",
         "fkelly": "Fractional Kelly",
         "balance-perc": "Balance Percentage",
-        "reset": "Reset"
+        "reset": "Reset",
+        "fst-odd": "First Odd",
+        "snd-odd": "Second Odd",
+        "fst-prob": "First Probability",
+        "snd-prob": "Second Probability",
+        "hold-perc": "Bookmaker Margin"
     }
 }

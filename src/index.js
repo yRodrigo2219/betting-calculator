@@ -12,9 +12,17 @@ import common_br from './translation/br/common.json';
 import './index.css';
 import './components/pages/Default.css';
 
+var defLanguage = 'en';
+
+try {
+    defLanguage = localStorage.getItem('lang') || 'en';
+} catch (error) {
+    // ignore
+}
+
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
-    lng: 'br',
+    lng: defLanguage,
     resources: {
         en: {
             main: main_en,

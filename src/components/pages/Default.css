@@ -110,6 +110,11 @@
     outline: rgb(231, 73, 99) auto 2px;
 }
 
+.outputs input:read-only {
+    background-color: rgb(54, 9, 73);
+    color: whitesmoke;
+}
+
 /*Modern Mobile*/
 @media only screen and (min-width: 520px) {
     .outputs {

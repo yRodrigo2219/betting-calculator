@@ -1,4 +1,18 @@
 {
+    "hold": {
+        "title": "Margem de Comissão",
+        "description": "A margem de comissão nada mais é do que a porcentagem que as casas de aposta retiram de ambos os lados de uma aposta.",
+        "explanation": {
+            "fst-title": "O que é essa Comissão?",
+            "fst-topic": "Comissão na aposta em esportes se refere a porcentagem de dinheiro que as casas de aposta ficam para cada dólar apostado.",
+            "snd-title": "Como é calculada?",
+            "snd-topic": {
+                "fst": "Um evento com duas possibilidades no mundo real, tipo uma moeda, podem ter probabilidades de 50%/50%. Essas probabilidades somadas tem 100% como resultado.",
+                "snd": "Porém, na aposta em esportes, é diferente. Uma vez que você converte os multiplicadoes para probabilidades e os somam, você acaba com um resultado maior do que 100%. Isso ocorre por que as casas de aposta lhe cobram uma taxa toda vez que você coloca uma aposta.",
+                "trd": "Comissão é apenas a probabilidade de todos os resultados somados, menos 100."
+            }
+        }
+    },
     "kelly": {
         "title": "Critério Kelly",
         "description": "A calculadora do Critério Kelly lhe informa o valor ótimo, visando o crescimento a longo prazo, que deve ser apostado (mas é da responsabilidade do usuário conseguir as entradas necessárias).",
