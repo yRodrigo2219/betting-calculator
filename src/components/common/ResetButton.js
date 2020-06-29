@@ -9,6 +9,6 @@ export default function ResetButton(props) {
     }
 
     return (
-        <button onClick={reset}>{props.name}</button>
+        <button onClick={reset}>{props.label}</button>
     );
 }

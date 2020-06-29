@@ -20,7 +20,7 @@ class Hold extends Component {
 
     handleOddChange(target, value) {
         this.setState({
-            [target.classList[0]]: value
+            [target.name]: value
         }, this.calcHold);
     }
 
@@ -48,17 +48,17 @@ class Hold extends Component {
                     <strong>{t('main:hold.description')}</strong>
 
                     <div className='inputs interface'>
-                        <LabelInput value={this.state.fstOdd} name={t('common:forms.fst-odd')} type='odd' symbol='X' onChange={this.handleOddChange} className='fstOdd' min={1.01} />
-                        <LabelInput value={this.state.sndOdd} name={t('common:forms.snd-odd')} type='odd' symbol='X' onChange={this.handleOddChange} className='sndOdd' min={1.01} />
+                        <LabelInput value={this.state.fstOdd} label={t('common:forms.fst-odd')} type='odd' symbol='X' onChange={this.handleOddChange} name='fstOdd' min={1.01} />
+                        <LabelInput value={this.state.sndOdd} label={t('common:forms.snd-odd')} type='odd' symbol='X' onChange={this.handleOddChange} name='sndOdd' min={1.01} />
                     </div>
                     <div className='outputs interface multi'>
                         <div>
-                            <LabelInput value={this.state.fstProb} name={t('common:forms.fst-prob')} type='odd' symbol='%' className='fstProb' readOnly />
-                            <LabelInput value={this.state.sndProb} name={t('common:forms.snd-prob')} type='odd' symbol='%' className='sndProb' readOnly />
+                            <LabelInput value={this.state.fstProb} label={t('common:forms.fst-prob')} type='odd' symbol='%' name='fstProb' readOnly />
+                            <LabelInput value={this.state.sndProb} label={t('common:forms.snd-prob')} type='odd' symbol='%' name='sndProb' readOnly />
                         </div>
                         <div>
-                            <LabelInput value={this.state.holdPerc} name={t('common:forms.hold-perc')} type='odd' symbol='%' className='holdPerc' readOnly />
-                            <ResetButton name={t('common:forms.reset')} reset={this.handleOddChange} />
+                            <LabelInput value={this.state.holdPerc} label={t('common:forms.hold-perc')} type='odd' symbol='%' name='holdPerc' readOnly />
+                            <ResetButton label={t('common:forms.reset')} reset={this.handleOddChange} />
                         </div>
                     </div>
                 </div>

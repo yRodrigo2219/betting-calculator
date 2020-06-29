@@ -21,6 +21,9 @@
         "snd-odd": "Second Odd",
         "fst-prob": "First Probability",
         "snd-prob": "Second Probability",
-        "hold-perc": "Bookmaker Margin"
+        "hold-perc": "Bookmaker Margin",
+        "original-bet": "Original Bet",
+        "original-odd": "Original Odd",
+        "hedge-odd": "Hedging Odd"
     }
 }

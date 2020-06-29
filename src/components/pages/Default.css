@@ -63,6 +63,10 @@
     margin-top: 20px;
 }
 
+.outputs>div {
+    margin-bottom: 50px;
+}
+
 .symbol {
     display: flex;
     position: relative;
@@ -122,6 +126,11 @@
         align-items: flex-end;
     }
 
+    .hedge .outputs {
+        flex-direction: column;
+        align-items: initial;
+    }
+
     .outputs.multi {
         flex-direction: column;
         align-items: initial;
@@ -131,6 +140,7 @@
         flex-direction: row;
         display: flex;
         align-items: flex-end;
+        margin-bottom: 0px;
     }
 
     .outputs.multi>div>label {
@@ -160,13 +170,17 @@
         max-width: 200px;
         min-width: 100px;
     }
+
+    .hedge .outputs button {
+        flex: initial;
+        margin-left: 0px;
+    }
 }
 
 /*Desktop view*/
 @media only screen and (min-width: 1024px) and (min-height: 500px) {
     .outputs {
         justify-content: start;
-        margin-top: 20px;
     }
 
     .content>div {

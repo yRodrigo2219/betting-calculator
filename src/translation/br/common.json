@@ -21,6 +21,9 @@
         "snd-odd": "Multiplicador Dois",
         "fst-prob": "Probabilidade Um",
         "snd-prob": "Probabilidade Dois",
-        "hold-perc": "Comissão"
+        "hold-perc": "Comissão",
+        "original-bet": "Aposta Original",
+        "original-odd": "Multiplicador Original",
+        "hedge-odd": "Multiplicador de Cobertura"
     }
 }

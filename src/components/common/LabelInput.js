@@ -21,12 +21,12 @@ export default function LabelInput(props) {
 
     return (
         <label>
-            {props.name}
+            {props.label}
             <div className={`${props.type} symbol`}>
                 <span>{props.symbol}</span>
                 <input onChange={handleInputChange} className={props.className} onBlur={fixedTwo}
                     type='number' min={props.min} max={props.max} step={0.01}
-                    readOnly={props.readOnly} value={props.value} />
+                    readOnly={props.readOnly} value={props.value} name={props.name} />
             </div>
         </label>
     );

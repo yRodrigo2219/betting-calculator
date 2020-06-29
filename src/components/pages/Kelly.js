@@ -20,11 +20,11 @@ class Kelly extends Component {
     }
 
     handleInputChange(target, value) {
-        if (target.classList.contains('fkelly') && value === '')
+        if (target.name === 'fkelly' && value === '')
             value = '1.00';
 
         this.setState({
-            [target.classList[0]]: value
+            [target.name]: value
         }, this.calcKelly);
     }
 
@@ -56,16 +56,16 @@ class Kelly extends Component {
                     <strong>{t('main:kelly.description')}</strong>
 
                     <div className='inputs interface'>
-                        <LabelInput value={this.state.balance} name={t('common:forms.balance')} type='currency' symbol='$' onChange={this.handleInputChange} className='balance' min={0.01} />
-                        <LabelInput value={this.state.odds} name={t('common:forms.odds')} type='odd' symbol='X' onChange={this.handleInputChange} className='odds' min={1.01} />
-                        <LabelInput value={this.state.prob} name={t('common:forms.win-prob')} type='odd' symbol='%' onChange={this.handleInputChange} className='prob' min={0.01} max={100} />
-                        <LabelInput value={this.state.fkelly} name={t('common:forms.fkelly')} type='odd' symbol='X' onChange={this.handleInputChange} className='fkelly' min={0.01} max={1} />
+                        <LabelInput value={this.state.balance} label={t('common:forms.balance')} type='currency' symbol='$' onChange={this.handleInputChange} name='balance' min={0.01} />
+                        <LabelInput value={this.state.odds} label={t('common:forms.odds')} type='odd' symbol='X' onChange={this.handleInputChange} name='odds' min={1.01} />
+                        <LabelInput value={this.state.prob} label={t('common:forms.win-prob')} type='odd' symbol='%' onChange={this.handleInputChange} name='prob' min={0.01} max={100} />
+                        <LabelInput value={this.state.fkelly} label={t('common:forms.fkelly')} type='odd' symbol='X' onChange={this.handleInputChange} name='fkelly' min={0.01} max={1} />
                     </div>
                     <div className='outputs interface multi'>
-                        <LabelInput value={this.state.wager} name={t('common:forms.wager')} type='currency' symbol='$' className='wager' readOnly />
+                        <LabelInput value={this.state.wager} label={t('common:forms.wager')} type='currency' symbol='$' name='wager' readOnly />
                         <div>
-                            <LabelInput value={this.state.wper} name={t('common:forms.balance-perc')} type='odd' symbol='%' className='wper' readOnly />
-                            <ResetButton name={t('common:forms.reset')} reset={this.handleInputChange} />
+                            <LabelInput value={this.state.wper} label={t('common:forms.balance-perc')} type='odd' symbol='%' name='wper' readOnly />
+                            <ResetButton label={t('common:forms.reset')} reset={this.handleInputChange} />
                         </div>
                     </div>
                 </div>

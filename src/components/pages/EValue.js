@@ -19,7 +19,7 @@ class EValue extends Component {
 
     handleInputChange(target, value) {
         this.setState({
-            [target.classList[0]]: value
+            [target.name]: value
         }, this.calcEV);
     }
 
@@ -47,13 +47,13 @@ class EValue extends Component {
                     <strong>{t('main:evalue.description')}</strong>
 
                     <div className='inputs interface'>
-                        <LabelInput value={this.state.wager} name={t('common:forms.wager')} type='currency' symbol='$' onChange={this.handleInputChange} className='wager' min={0.01} />
-                        <LabelInput value={this.state.odds} name={t('common:forms.odds')} type='odd' symbol='X' onChange={this.handleInputChange} className='odds' min={1.01} />
-                        <LabelInput value={this.state.prob} name={t('common:forms.win-prob')} type='odd' symbol='%' onChange={this.handleInputChange} className='prob' min={0.01} max={100} />
+                        <LabelInput value={this.state.wager} label={t('common:forms.wager')} type='currency' symbol='$' onChange={this.handleInputChange} name='wager' min={0.01} />
+                        <LabelInput value={this.state.odds} label={t('common:forms.odds')} type='odd' symbol='X' onChange={this.handleInputChange} name='odds' min={1.01} />
+                        <LabelInput value={this.state.prob} label={t('common:forms.win-prob')} type='odd' symbol='%' onChange={this.handleInputChange} name='prob' min={0.01} max={100} />
                     </div>
                     <div className='outputs interface'>
-                        <LabelInput value={this.state.evalue} name={t('common:forms.expected')} type='currency' symbol='$' className='evalue' readOnly />
-                        <ResetButton name={t('common:forms.reset')} reset={this.handleInputChange} />
+                        <LabelInput value={this.state.evalue} label={t('common:forms.expected')} type='currency' symbol='$' name='evalue' readOnly />
+                        <ResetButton label={t('common:forms.reset')} reset={this.handleInputChange} />
                     </div>
                 </div>
                 <div className='explanation'>

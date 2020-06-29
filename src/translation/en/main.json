@@ -1,4 +1,20 @@
 {
+    "hedge": {
+        "title": "Hedging Calculator",
+        "description": "",
+        "strategies": {
+            "bet": "Hedging Bet",
+            "profit-og": "Original Bet Profit",
+            "profit-hedge": "Hedging Bet Profit",
+            "unbiased": "Unbiased",
+            "biased-original": "Biased Original",
+            "biased-hedge": "Biased Hedge"
+        }
+    },
+    "arbitrage": {
+        "title": "Arbitrage Betting",
+        "description": ""
+    },
     "hold": {
         "title": "Bookmaker Hold",
         "description": "The hold percentage is the margin a bookmaker takes on both sides of the game.",

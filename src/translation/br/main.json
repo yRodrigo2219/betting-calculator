@@ -1,4 +1,20 @@
 {
+    "hedge": {
+        "title": "Cobertura de Aposta",
+        "description": "",
+        "strategies": {
+            "bet": "Aposta de Cobertura",
+            "profit-og": "Lucro na Original",
+            "profit-hedge": "Lucro na Cobertura",
+            "unbiased": "Imparcial",
+            "biased-original": "Apoiar Original",
+            "biased-hedge": "Apoiar Cobertura"
+        }
+    },
+    "arbitrage": {
+        "title": "Arbitragem de Apostas",
+        "description": ""
+    },
     "hold": {
         "title": "Margem de Comissão",
         "description": "A margem de comissão nada mais é do que a porcentagem que as casas de aposta retiram de ambos os lados de uma aposta.",
