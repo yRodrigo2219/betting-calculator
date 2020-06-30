@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/betting-calculator/static/css/main.5285fafa.chunk.css",
-    "main.js": "/betting-calculator/static/js/main.4a46399e.chunk.js",
-    "main.js.map": "/betting-calculator/static/js/main.4a46399e.chunk.js.map",
+    "main.js": "/betting-calculator/static/js/main.275287fd.chunk.js",
+    "main.js.map": "/betting-calculator/static/js/main.275287fd.chunk.js.map",
     "runtime-main.js": "/betting-calculator/static/js/runtime-main.b511c157.js",
     "runtime-main.js.map": "/betting-calculator/static/js/runtime-main.b511c157.js.map",
-    "static/js/2.7159a596.chunk.js": "/betting-calculator/static/js/2.7159a596.chunk.js",
-    "static/js/2.7159a596.chunk.js.map": "/betting-calculator/static/js/2.7159a596.chunk.js.map",
+    "static/js/2.7afdfd8a.chunk.js": "/betting-calculator/static/js/2.7afdfd8a.chunk.js",
+    "static/js/2.7afdfd8a.chunk.js.map": "/betting-calculator/static/js/2.7afdfd8a.chunk.js.map",
     "index.html": "/betting-calculator/index.html",
-    "precache-manifest.de7c925048418f67e16fcca325938f73.js": "/betting-calculator/precache-manifest.de7c925048418f67e16fcca325938f73.js",
+    "precache-manifest.a5dc3db74d3bf9d169fd43ef7923e303.js": "/betting-calculator/precache-manifest.a5dc3db74d3bf9d169fd43ef7923e303.js",
     "service-worker.js": "/betting-calculator/service-worker.js",
     "static/css/main.5285fafa.chunk.css.map": "/betting-calculator/static/css/main.5285fafa.chunk.css.map",
-    "static/js/2.7159a596.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.7159a596.chunk.js.LICENSE.txt",
+    "static/js/2.7afdfd8a.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.7afdfd8a.chunk.js.LICENSE.txt",
     "static/media/chart.407cc23d.svg": "/betting-calculator/static/media/chart.407cc23d.svg",
     "static/media/home.789230e2.svg": "/betting-calculator/static/media/home.789230e2.svg",
     "static/media/odd.70d6ca53.svg": "/betting-calculator/static/media/odd.70d6ca53.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b511c157.js",
-    "static/js/2.7159a596.chunk.js",
+    "static/js/2.7afdfd8a.chunk.js",
     "static/css/main.5285fafa.chunk.css",
-    "static/js/main.4a46399e.chunk.js"
+    "static/js/main.275287fd.chunk.js"
   ]
 }

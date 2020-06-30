@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f795e0f9e3f8b12177cec2adb602045e",
+    "revision": "c4a89e7e64d8752e1f8fff9d37010a17",
     "url": "/betting-calculator/index.html"
   },
   {
-    "revision": "973d87bb6010dc09a812",
+    "revision": "4b08f674e4f139e8e167",
     "url": "/betting-calculator/static/css/main.5285fafa.chunk.css"
   },
   {
-    "revision": "0bb3ba715b7b1e20166a",
-    "url": "/betting-calculator/static/js/2.7159a596.chunk.js"
+    "revision": "64b63567154e239c1801",
+    "url": "/betting-calculator/static/js/2.7afdfd8a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/betting-calculator/static/js/2.7159a596.chunk.js.LICENSE.txt"
+    "url": "/betting-calculator/static/js/2.7afdfd8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "973d87bb6010dc09a812",
-    "url": "/betting-calculator/static/js/main.4a46399e.chunk.js"
+    "revision": "4b08f674e4f139e8e167",
+    "url": "/betting-calculator/static/js/main.275287fd.chunk.js"
   },
   {
     "revision": "a226849d32c50d40f958",
