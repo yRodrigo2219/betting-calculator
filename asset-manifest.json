@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/betting-calculator/static/css/main.5285fafa.chunk.css",
-    "main.js": "/betting-calculator/static/js/main.275287fd.chunk.js",
-    "main.js.map": "/betting-calculator/static/js/main.275287fd.chunk.js.map",
+    "main.css": "/betting-calculator/static/css/main.d5d0c641.chunk.css",
+    "main.js": "/betting-calculator/static/js/main.28bc3809.chunk.js",
+    "main.js.map": "/betting-calculator/static/js/main.28bc3809.chunk.js.map",
     "runtime-main.js": "/betting-calculator/static/js/runtime-main.b511c157.js",
     "runtime-main.js.map": "/betting-calculator/static/js/runtime-main.b511c157.js.map",
     "static/js/2.7afdfd8a.chunk.js": "/betting-calculator/static/js/2.7afdfd8a.chunk.js",
     "static/js/2.7afdfd8a.chunk.js.map": "/betting-calculator/static/js/2.7afdfd8a.chunk.js.map",
     "index.html": "/betting-calculator/index.html",
-    "precache-manifest.a5dc3db74d3bf9d169fd43ef7923e303.js": "/betting-calculator/precache-manifest.a5dc3db74d3bf9d169fd43ef7923e303.js",
+    "precache-manifest.ec275f2adc38747bf69e51d3131df71d.js": "/betting-calculator/precache-manifest.ec275f2adc38747bf69e51d3131df71d.js",
     "service-worker.js": "/betting-calculator/service-worker.js",
-    "static/css/main.5285fafa.chunk.css.map": "/betting-calculator/static/css/main.5285fafa.chunk.css.map",
+    "static/css/main.d5d0c641.chunk.css.map": "/betting-calculator/static/css/main.d5d0c641.chunk.css.map",
     "static/js/2.7afdfd8a.chunk.js.LICENSE.txt": "/betting-calculator/static/js/2.7afdfd8a.chunk.js.LICENSE.txt",
     "static/media/chart.407cc23d.svg": "/betting-calculator/static/media/chart.407cc23d.svg",
     "static/media/home.789230e2.svg": "/betting-calculator/static/media/home.789230e2.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.b511c157.js",
     "static/js/2.7afdfd8a.chunk.js",
-    "static/css/main.5285fafa.chunk.css",
-    "static/js/main.275287fd.chunk.js"
+    "static/css/main.d5d0c641.chunk.css",
+    "static/js/main.28bc3809.chunk.js"
   ]
 }
