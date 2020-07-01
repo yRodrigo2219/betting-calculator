@@ -126,7 +126,7 @@
         align-items: flex-end;
     }
 
-    .hedge .outputs {
+    .multi-cont {
         flex-direction: column;
         align-items: initial;
     }
@@ -171,7 +171,7 @@
         min-width: 100px;
     }
 
-    .hedge .outputs button {
+    .multi-cont button {
         flex: initial;
         margin-left: 0px;
     }

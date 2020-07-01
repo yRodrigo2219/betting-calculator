@@ -78,7 +78,7 @@ class Hedge extends Component {
                         <LabelInput value={this.state.hedgeOdd} label={t('common:forms.hedge-odd')} type='odd' symbol='X' onChange={this.handleInputChange} name='hedgeOdd' min={1.01} />
                     </div>
 
-                    <div className='outputs interface'>
+                    <div className='outputs interface multi-cont'>
                         <div>
                             <h1>{t('main:hedge.strategies.unbiased')}</h1>
                             <LabelInput value={this.state.unbiasedBet} label={t('main:hedge.strategies.bet')} type='currency' symbol='$' name='unbiasedBet' readOnly />
