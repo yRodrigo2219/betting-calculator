@@ -1,4 +1,8 @@
 {
+    "odd": {
+        "title": "Odds Converter",
+        "description": ""
+    },
     "hedge": {
         "title": "Hedging Calculator",
         "description": "",
@@ -13,7 +17,16 @@
     },
     "arbitrage": {
         "title": "Arbitrage Betting",
-        "description": ""
+        "description": "",
+        "strategies": {
+            "bet-fst": "First Bet",
+            "bet-snd": "Second Bet",
+            "profit-fst": "Profit First Bet",
+            "profit-snd": "Profit Second Bet",
+            "unbiased": "Unbiased",
+            "biased-fst": "Biased First Odd",
+            "biased-snd": "Biased Second Odd"
+        }
     },
     "hold": {
         "title": "Bookmaker Hold",

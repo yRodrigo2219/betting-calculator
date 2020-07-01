@@ -89,26 +89,26 @@ class Arbitrage extends Component {
                     <div className='outputs interface multi-cont'>
                         <div>
                             <h1>{t('main:arbitrage.strategies.unbiased')}</h1>
-                            <LabelInput value={this.state.fstUnbBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='fstUnbBet' readOnly />
-                            <LabelInput value={this.state.sndUnbBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='sndUnbBet' readOnly />
-                            <LabelInput value={this.state.fstUnbProfit} label={t('main:arbitrage.strategies.profit-og')} type='currency' symbol='$' name='fstUnbProfit' readOnly />
-                            <LabelInput value={this.state.sndUnbProfit} label={t('main:arbitrage.strategies.profit-hedge')} type='currency' symbol='$' name='sndUnbProfit' readOnly />
+                            <LabelInput value={this.state.fstUnbBet} label={t('main:arbitrage.strategies.bet-fst')} type='currency' symbol='$' name='fstUnbBet' readOnly />
+                            <LabelInput value={this.state.sndUnbBet} label={t('main:arbitrage.strategies.bet-snd')} type='currency' symbol='$' name='sndUnbBet' readOnly />
+                            <LabelInput value={this.state.fstUnbProfit} label={t('main:arbitrage.strategies.profit-fst')} type='currency' symbol='$' name='fstUnbProfit' readOnly />
+                            <LabelInput value={this.state.sndUnbProfit} label={t('main:arbitrage.strategies.profit-snd')} type='currency' symbol='$' name='sndUnbProfit' readOnly />
                         </div>
 
                         <div>
                             <h1>{t('main:arbitrage.strategies.biased-fst')}</h1>
-                            <LabelInput value={this.state.fstBiFBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='fstBiFBet' readOnly />
-                            <LabelInput value={this.state.sndBiFBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='sndBiFBet' readOnly />
-                            <LabelInput value={this.state.fstBiFProfit} label={t('main:arbitrage.strategies.profit-og')} type='currency' symbol='$' name='fstBiFProfit' readOnly />
-                            <LabelInput value={this.state.sndBiFProfit} label={t('main:arbitrage.strategies.profit-hedge')} type='currency' symbol='$' name='sndBiFProfit' readOnly />
+                            <LabelInput value={this.state.fstBiFBet} label={t('main:arbitrage.strategies.bet-fst')} type='currency' symbol='$' name='fstBiFBet' readOnly />
+                            <LabelInput value={this.state.sndBiFBet} label={t('main:arbitrage.strategies.bet-snd')} type='currency' symbol='$' name='sndBiFBet' readOnly />
+                            <LabelInput value={this.state.fstBiFProfit} label={t('main:arbitrage.strategies.profit-fst')} type='currency' symbol='$' name='fstBiFProfit' readOnly />
+                            <LabelInput value={this.state.sndBiFProfit} label={t('main:arbitrage.strategies.profit-snd')} type='currency' symbol='$' name='sndBiFProfit' readOnly />
                         </div>
 
                         <div>
                             <h1>{t('main:arbitrage.strategies.biased-snd')}</h1>
-                            <LabelInput value={this.state.fstBiSBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='fstBiSBet' readOnly />
-                            <LabelInput value={this.state.sndBiSBet} label={t('main:arbitrage.strategies.bet')} type='currency' symbol='$' name='sndBiSBet' readOnly />
-                            <LabelInput value={this.state.fstBiSProfit} label={t('main:arbitrage.strategies.profit-og')} type='currency' symbol='$' name='fstBiSProfit' readOnly />
-                            <LabelInput value={this.state.sndBiSProfit} label={t('main:arbitrage.strategies.profit-hedge')} type='currency' symbol='$' name='sndBiSProfit' readOnly />
+                            <LabelInput value={this.state.fstBiSBet} label={t('main:arbitrage.strategies.bet-fst')} type='currency' symbol='$' name='fstBiSBet' readOnly />
+                            <LabelInput value={this.state.sndBiSBet} label={t('main:arbitrage.strategies.bet-snd')} type='currency' symbol='$' name='sndBiSBet' readOnly />
+                            <LabelInput value={this.state.fstBiSProfit} label={t('main:arbitrage.strategies.profit-fst')} type='currency' symbol='$' name='fstBiSProfit' readOnly />
+                            <LabelInput value={this.state.sndBiSProfit} label={t('main:arbitrage.strategies.profit-snd')} type='currency' symbol='$' name='sndBiSProfit' readOnly />
                         </div>
 
                         <ResetButton label={t('common:forms.reset')} reset={this.handleInputChange} />

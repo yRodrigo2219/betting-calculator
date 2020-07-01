@@ -1,4 +1,8 @@
 {
+    "odd": {
+        "title": "Odds Converter",
+        "description": ""
+    },
     "hedge": {
         "title": "Cobertura de Aposta",
         "description": "",
@@ -13,7 +17,16 @@
     },
     "arbitrage": {
         "title": "Arbitragem de Apostas",
-        "description": ""
+        "description": "",
+        "strategies": {
+            "bet-fst": "Aposta Um",
+            "bet-snd": "Aposta Dois",
+            "profit-fst": "Lucro Aposta Um",
+            "profit-snd": "Lucro Aposta Dois",
+            "unbiased": "Imparcial",
+            "biased-fst": "Apoiar Mult. Um",
+            "biased-snd": "Apoiar Mult. Dois"
+        }
     },
     "hold": {
         "title": "Margem de Comissão",

@@ -24,6 +24,11 @@
         "hold-perc": "Bookmaker Margin",
         "original-bet": "Original Bet",
         "original-odd": "Original Odd",
-        "hedge-odd": "Hedging Odd"
+        "hedge-odd": "Hedging Odd",
+        "decimal-odd": "Decimal Odds",
+        "implied-odd": "Implied Odds",
+        "american-odd": "American Odds",
+        "fractional-odd": "Fractional Odds",
+        "total-wager": "Total Wager"
     }
 }

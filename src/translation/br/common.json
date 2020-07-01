@@ -24,6 +24,11 @@
         "hold-perc": "Comissão",
         "original-bet": "Aposta Original",
         "original-odd": "Multiplicador Original",
-        "hedge-odd": "Multiplicador de Cobertura"
+        "hedge-odd": "Multiplicador de Cobertura",
+        "decimal-odd": "Multiplicador Decimal",
+        "implied-odd": "Multiplicador Implícito",
+        "american-odd": "Multiplicador Americano",
+        "fractional-odd": "Multiplicador Fracional",
+        "total-wager": "Total para Aposta"
     }
 }

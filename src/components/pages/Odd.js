@@ -138,7 +138,7 @@ class Odd extends Component {
             <div className='content'>
                 <div className='odd-converter'>
                     <h1>{t('main:odd.title')}</h1>
-                    <strong>{t('main:odd.descripiton')}</strong>
+                    <strong>{t('main:odd.description')}</strong>
 
                     <div className='inputs interface'>
                         <LabelInput value={this.state.decOdd} label={t('common:forms.decimal-odd')} type='odd' symbol='X' onChange={this.handleInputChange} name='decOdd' min={1.01} />
