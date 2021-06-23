@@ -1,68 +1,131 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+*** Readme template used: Best-README-Template
+*** https://github.com/othneildrew/Best-README-Template
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="#">
+    <img src="readme-assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h3 align="center">Betting Calculator</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">
+    A betting related calculator
+    <br />
+    <a href="https://github.com/yRodrigo2219/betting-calculator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://yrodrigo2219.github.io/betting-calculator/">View Live</a>
+    ·
+    <a href="https://github.com/yRodrigo2219/betting-calculator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/yRodrigo2219/betting-calculator/issues">Request Feature</a>
+  </p>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#responsiveness">Responsiveness</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn eject`
+[![Betting Calculator Screenshot][product-screenshot]](https://yrodrigo2219.github.io/betting-calculator/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It was made as an initial effort of learning more about the React framework and how to setup translations. The project subject choice was made based on my curiosity at the time, I wanted to learn more about betting and made a website with some of the calculations I learned at the time.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Its functions are:
+* Odd converter
+* Hedging
+* Arbitrage betting
+* Bookmarker hold percentage
+* Kelly criterion
+* Expected value
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Responsiveness
 
-## Learn More
+[![Betting Calculator Responsive][responsive-screenshot]](https://yrodrigo2219.github.io/betting-calculator/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Shot taken with this [multi-mockup](https://techsini.com/multi-mockup/index.php)_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Built With
 
-### Code Splitting
+This project was built with:
+* [React.js](https://reactjs.org/)
+* [i18next](https://react.i18next.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Making a Progressive Web App
+This project is not meant to be installed locally, but you can check the [Live version](https://yrodrigo2219.github.io/betting-calculator/).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- USAGE EXAMPLES -->
+## Usage
 
-### Advanced Configuration
+Each section of the website should have/has an explanation at the end of the page. But, all you really need to use the calculator are the right inputs.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- ROADMAP -->
+## Roadmap
 
-### `yarn build` fails to minify
+Some of the pages still not having its descriptions and the home page is really empty. These are meant to change.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Rodrigo - [@y2219_](https://twitter.com/y2219_) - [Discord](https://discordapp.com/users/308349999719251988)
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/yRodrigo2219/betting-calculator.svg?style=for-the-badge
+[contributors-url]: https://github.com/yRodrigo2219/betting-calculator/contributors
+[issues-shield]: https://img.shields.io/github/issues/yRodrigo2219/betting-calculator.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/yRodrigo2219/betting-calculator/issues
+[license-shield]: https://img.shields.io/github/license/yRodrigo2219/betting-calculator.svg?style=for-the-badge
+[license-url]: https://github.com/yRodrigo2219/betting-calculator/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/y2219
+[product-screenshot]: readme-assets/screenshot.gif
+[responsive-screenshot]: readme-assets/responsive.png
